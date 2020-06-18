@@ -2,9 +2,25 @@
   "name": "react-arengu-forms",
   "version": "1.0.0",
   "description": "React plugin to embed Arengu forms on your application",
-  "author": "castrinho18",
+  "author": "arengu",
   "license": "MIT",
-  "repository": "arengu/react-arengu-forms",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arengu/react-arengu-forms.git"
+  },
+  "keywords": [
+    "arengu",
+    "arengu-form",
+    "online-form",
+    "web-form",
+    "static-form",
+    "form-builder",
+    "signup-form",
+    "payment-form",
+    "contact-form",
+    "react",
+    "react-plugin"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -56,5 +72,15 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/arengu/react-arengu-forms/issues"
+  },
+  "homepage": "https://github.com/arengu/react-arengu-forms#readme",
+  "dependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.5.0",
+    "react-test-renderer": "^16.13.1"
+  }
 }
