@@ -1,20 +1,20 @@
 # Arengu Forms for React
 
-This React plugin allows you to easily embed [Arengu Forms](https://www.arengu.com) into your React application.
+This React library allows you to easily embed [Arengu Forms](https://www.arengu.com) into your React application.
 
 ## Install
 
 ```shell
-npm install --save react-plugin-arengu-forms
+npm install --save react-arengu-forms
 ```
 
 ## Getting started
 
-This plugin will load into your app our [JavaScript SDK](https://github.com/arengu/forms-js-sdk) asynchronously, so it won’t affect your website load speed.
+This library will load into your app our [JavaScript SDK](https://github.com/arengu/forms-js-sdk) asynchronously, so it won’t affect your website load speed.
 
 ## Usage
 
-To use this plugin you have to add our SDK to your `index.html`.
+To use this library, you have to add our SDK to your `index.html`.
 
 ```html
 <script async src="https://sdk.arengu.com/forms.js"></script>
@@ -26,7 +26,7 @@ And import `ArenguForm` component.
 
 ```jsx
 import React from "react"
-import { ArenguForm } from "react-plugin-arengu-forms"
+import { ArenguForm } from "react-arengu-forms"
 
 const IndexPage = () => (
   <div>
@@ -41,7 +41,7 @@ export default IndexPage
 
 ```jsx
 import React from "react"
-import { ArenguForm } from "react-plugin-arengu-forms"
+import { ArenguForm } from "react-arengu-forms"
 
 const IndexPage = () => (
   <div>
