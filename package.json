@@ -1,5 +1,5 @@
 {
-  "name": "react-arengu-forms",
+  "name": "@arengu/react-arengu-forms",
   "version": "1.0.0",
   "description": "React plugin to embed Arengu forms on your application",
   "author": "arengu",
